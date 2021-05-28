@@ -1,0 +1,56 @@
+html
+{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+#frlg
+{
+    border-radius: 5%;
+    height: 50%;
+    width: 40vw;
+    position: relative;
+    top: 20vh;
+    left: 35vw;
+    min-width: 350px;
+    z-index: 1000;
+}
+#lg
+{
+    background-image: url(../img/bklg.jpg);
+    background-size: auto;
+    height: 100%; 
+    width: 100%;
+    display: flex;
+    z-index: 100;
+}
+div#menumain ul li
+{
+ display:inline-table;
+ margin-left:1.5em;
+ line-height:10vh;
+ font-size:22px;
+}
+#menumain ul li a
+{
+    list-style-type: none;
+    text-decoration:none;
+    display: block;
+    color:#ffffff;
+}
+#menumain
+{
+    min-width: 1800px;
+}
+nav#nv_menu
+{
+ background: #93cb32;
+ width: 100%;
+ height: 14vh;
+ margin-top:-1em;
+}
